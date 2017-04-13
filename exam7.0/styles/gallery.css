@@ -1,0 +1,38 @@
+
+
+#gallery{
+	display:block;
+	width:100%;
+	line-height:1.6em;
+	}
+
+#gallery ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#gallery li{
+	display:block;
+	float:left;
+	width:140px;
+	height:140px;
+	margin:0 24px 24px 0;
+	padding:0;
+	overflow:hidden;
+	}
+
+#gallery li a img{
+	display:block;
+	width:130px;
+	height:130px;
+	margin:0;
+	padding:4px;
+	border:1px solid #D8D8D8;
+	}
+
+
+
+#gallery li.last{
+	margin-right:0;
+	}

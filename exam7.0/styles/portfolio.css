@@ -1,0 +1,88 @@
+
+
+#portfolio{
+	display:block;
+	width:100%;
+	}
+
+#portfolio ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#portfolio li.last{
+	margin:0;
+	}
+
+#portfolio .fl_left{
+	display:block;
+	float:left;
+	width:450px;
+	}
+
+#portfolio .fl_left .media{
+	margin:0 0 20px 0;
+	}
+
+#portfolio .fl_left .mediadetails h2, #portfolio .fl_left .mediadetails a{
+	background-color:#E9E9E9;
+	}
+
+#portfolio .fl_left .mediadetails{
+	padding:10px 20px;
+	color:#666666;
+	background-color:#E9E9E9;
+	}
+
+#portfolio .fl_right{
+	display:block;
+	float:right;
+	width:465px;
+	}
+
+#portfolio .fl_right .medialist{
+	margin:0 0 25px 0;
+	}
+
+#portfolio .fl_right .medialist li{
+	display:block;
+	float:left;
+	width:140px;
+	height:140px;
+	margin:0 0 15px 15px;
+	}
+
+#portfolio .fl_right .medialist li a img{
+	display:block;
+	width:130px;
+	height:130px;
+	margin:0;
+	padding:4px;
+	border:1px solid #D8D8D8;
+	}
+
+#portfolio .fl_right .medialist li a:hover img{
+	border-color:#333333;
+	}
+
+#portfolio .fl_right .pagination{
+	display:block;
+	width:450px;
+	margin-left:15px;
+	clear:both;
+	text-align:center;
+	}
+
+/* --jQuery Tabs Specific - Only modify if you know what you are doing---*/
+
+.ui-tabs{}
+.ui-tabs .ui-tabs-nav{}
+.ui-tabs .ui-tabs-nav li{}
+#container .ui-tabs .ui-tabs-nav li a{}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected{}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a{}
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a{}
+#container .ui-tabs li.ui-tabs-selected a{}
+.ui-tabs .ui-tabs-panel{}
+#container .ui-tabs .ui-tabs-hide{display:none;}

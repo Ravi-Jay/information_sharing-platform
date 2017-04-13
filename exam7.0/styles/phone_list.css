@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+#information {
+	width:1404px;
+	height:auto;
+	border:2px solid #ccc;
+	font-size:12px;
+	background :#f2f2f2;
+	text-align:center;
+	padding:50px 200px 0 80px;
+}
+#information h2 {
+	text-indent:0;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+#information #information_sidebar {
+	width:300px;
+	height:800px;
+	margin:20px 400px 100px 310px;
+	border:1px dashed #999;
+}
+#information #information_sidebar dl {
+	width:250px;
+	margin:15px auto;
+}
+#information #information_sidebar dl dt {
+	height:40px;
+	width:250px;
+	line-height:40px;
+	background:#999;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+#information #information_sidebar dl dd {
+	height:40px;
+	line-height:40px;
+	background:#eee;
+	font-weight:bold;
+	text-align:center;
+}
+#information #information_sidebar dl dd a {
+	display:block;
+	color:#333;
+	text-decoration:none;
+	text-align:center;
+	margin:0 20px 0 20px;
+}
+#information #information_sidebar dl dd a:hover {
+	background:#ccc;
+	
+}
+#information #information_main {
+	width:590px;
+	height:800px;
+	margin:-902px 400px 200px 620px;
+	border:1px dashed #999;
+
+}
+
+#information_main table {
+	width:90%;
+	margin:20px 50px 0 60px;
+	margin-bottom:0px;
+
+}
+#information_main table th,#information_main table td {
+	height:25px;
+	line-height:25px;
+	background:#f3f3f3;
+}
+
+#information_main table tr {
+	font-size:15px;
+	height:16px;
+	color:rgba(0, 0, 0, 0.79);
+}
+#information_main table tr a {
+
+	color:rgba(51, 51, 51, 0.79);
+}
+#information_main table td a:hover {
+	text-decoration:underline;
+}
+#information #information_main dl {
+	width:500px;
+	margin:15px auto;
+	font-size:14px;
+}
+#information #information_main dl dt img{
+	padding:5px 0 5px 120px;
+	cursor:pointer;
+	weight:100px;
+	height:100px;
+	margin:10px 400px 10px 200px; 
+	border: 5px solid #ddd;
+    padding: 5px;
+    background: #fff;
+	
+}
+#information #information_main dl dd {
+	padding:10px 0;
+	text-align:center;
+	border-bottom:1px dashed #999;
+}

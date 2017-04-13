@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+#sender {
+	width:1684px;
+	height:auto;
+	padding:50px 0;
+	border:2px solid #ccc;
+	font-size:12px;
+	background :#f2f2f2;
+	text-align:center;
+}
+#sender h3{
+	text-align:center;
+	font-size:20px;
+	width:500px;
+	height:50px;
+	padding:25px 0 0 0;
+	border: 5px solid #ddd;
+	margin:0px 560px;
+}
+#sender dl{
+	width:90%;
+	margin:0 auto;
+	weight:auto;
+	height:800px;
+	padding:50px 20px;
+	
+}
+
+#sender dl dd {
+	margin:5px 0;
+
+}
+#sender dl dd input.to_user{
+	width:200px;
+	height:20px;
+	background:#fff;
+	border:1px dashed #333;
+	float:left;
+	margin:20px 265px;
+	font-size:15px;
+	padding-left:5px;
+}
+#sender dl dd input.theme{
+	width:65%;
+	height:30px;
+	background:#fff;
+	border:1px dashed #333;
+	float:left;
+	margin:5px 264px;
+	font-size:20px;
+	padding-left:5px;
+}
+
+#sender dl dd textarea {
+	width:65%;
+	height:520px;
+	background:#fff;
+	border:1px dashed #333;
+	font-size:20px;
+
+}
+
+#sender dl dd input.submit {
+	cursor:pointer;
+	margin:50px 0;
+	width:60px;
+	height:30px;
+	background: #E27575;
+	border: none;
+	margin:20px 70px;
+	font-size:16px;
+	padding: 6px 25px 10px 15px;
+	color: #FFF;
+	box-shadow: 1px 1px 5px #B6B6B6;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #9E3F3F;
+}

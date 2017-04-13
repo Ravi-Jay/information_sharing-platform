@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+
+#blog {
+	width:960px;
+	height:auto;
+	border:2px solid #ccc;
+	font-size:12px;
+	background :#f2f2f2;
+	text-align:center;
+	padding:0 364px 0 360px;
+}
+#blog #user_table{
+	width:860px;
+	height:50px;
+	margin:0px 50px 0 50px;
+	padding:15px 0;
+}
+
+#blog #user_table{
+	text-transform:uppercase;
+	background-color:#8d1a1a;
+}
+#blog #user_table ul li {
+	width:80px;
+	height:30px;
+	margin: 0px auto;
+  	display: block;
+	float:left;
+	margin-left:30px;
+}
+#blog #user_table ul li .mover
+{
+	border-radius;
+	width:80px;
+	height:30px;
+	border:none;
+	outline:none;
+	font-size:17px;
+	background:#990000;
+}
+
+#blog #user_table ul li .mout
+{
+	border-radius;
+	width:80px;
+	height:30px;
+	border:none;
+	outline:none;
+	font-size:17px;
+	background-color:transparent;
+	
+}
+#blog #user_table ul li input.submit{
+	border-radius;
+	width:80px;
+	height:30px;
+	float:right;
+	background-color:transparent;
+	border:none;
+	outline:none;
+	font-size:17px;
+}
+
+
+#blog h2 {
+	text-indent:0;
+	text-align:center;
+}
+#blog dl {
+	width:150px;
+	margin:10px 0px 0 34px;
+	float:left;
+}
+#blog dl dt {
+	width:150px;
+	margin:0 0 5px 0;
+}
+#blog dl dt img {
+	margin:0 auto;
+	cursor:pointer;
+	weight:100px;
+	height:100px;
+	border: 5px solid #ddd;
+    padding: 5px;
+    background: #fff;
+	display:block;	
+}
+#blog dl dd {
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	width:75px;
+	float:left;
+}
+#blog dl dd.user {
+
+	float:none;
+	color:#4b423b;
+}
+#page_text {
+	height:20px;
+	clear:both;
+	padding:50px 0 100px 0;
+}
+#page_text ul {
+	text-align:center;
+}
+#page_text ul li {
+	display:inline;
+}
+#page_text ul li a {
+	color:#333;
+}
+#blog dl dd.message {
+	color:#4b423b;
+}
+#blog dl dd.friend {
+	color:#4b423b;
+}
+#blog dl dd.guest {
+	color:#4b423b;
+}
+#blog dl dd a {
+	color:#b15107;
+}

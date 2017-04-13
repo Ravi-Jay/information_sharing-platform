@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+@import url(layout.css);
+#member_main {
+	width:1684px;
+	height:700px;
+	border:2px solid #ccc;
+	font-size:12px;
+	background :#f2f2f2;
+	text-align:center;
+}
+#member_main h2 {
+	text-indent:0;
+	text-align:center;
+}
+#member_main dl {
+	width:500px;
+	margin:0 auto;
+	text-align:center;
+}
+#member_main dl dt {
+	text-align:center;
+	padding:10px 0;
+	font-weight:bold;
+}
+#member_main dl dd {
+	text-align:center;
+	padding:5px 0;
+}
+#member_main dl dd.face {
+	padding:5px 0 5px 120px;
+}
+#member_main dl dd.face img {
+	cursor:pointer;
+	weight:150px;
+	height:150px;
+	margin:10px 400px 10px 3px; 
+	border: 5px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+#member_main dl dd input.text {
+	width:220px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+}
+
+#member_main dl dd input.yzm {
+	width:60px;
+}
+#member_main dl dd input.submit {
+	width:60px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+	margin:10px 0 0 -50px;
+	text-align:center;
+}
+#member_main dl dd img#code {
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}
+

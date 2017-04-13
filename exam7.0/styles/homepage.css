@@ -1,0 +1,150 @@
+#hpage_featured{
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	width:960px;
+	padding-bottom:20px;
+	}
+
+#hpage_featured a{
+	color:#510000;
+	background-color:#E1D6CB;
+	}
+
+#hpage_featured .intro{
+	display:block;
+	float:right;
+	width:450px;
+	line-height:1.6em;
+	}
+
+#hpage_featured .intro h1, #hpage_featured .intro h2, #hpage_featured .intro h3, #hpage_featured .intro h4, #hpage_featured .intro h5, #hpage_featured .intro h6{
+	background-color:#E1D6CB;
+	margin:0 0 15px 0;
+	padding:0 0 10px 0;
+	border-bottom:1px solid #FFFFFF;
+	}
+
+#hpage_featured .intro ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#hpage_featured .welcome{
+	display:block;
+	width:100%;
+	margin-bottom:10px;
+	}
+
+#hpage_featured .welcome .imgl{
+	border-color:#FFFFFF;
+	}
+
+#hpage_featured .welcome .fl_right{
+	display:block;
+	float:right;
+	width:300px;
+	}
+
+#hpage_featured .popular{
+	display:block;
+	width:100%;
+	clear:both;
+	}
+
+#hpage_featured .popular li{
+	display:block;
+	float:left;
+	width:205px;
+	margin-bottom:4px;
+	padding:0 20px 0 0;
+	line-height:normal;
+	}
+
+#hpage_featured .popular li a{
+	font-size:12px;
+	}
+
+/* ----------------------------------------------Homepage Content Area-------------------------------------*/
+
+#homepage{
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	width:960px;
+	}
+
+#container #homepage ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#container #homepage #content{}
+
+#container #homepage #content #top_featured{
+	margin:0 0 30px 0;
+	padding:0 0 30px 0;
+	border-bottom:1px solid #D8D8D8;
+	}
+
+#container #homepage #content #top_featured li{
+	float:left;
+	width:300px;
+	margin-right:30px;
+	}
+
+#container #homepage #content #top_featured li.last{
+	margin-right:0;
+	}
+
+#container #homepage #content #top_featured li img{
+	padding-bottom:16px;
+	weight:200px;
+	height:100px;
+	background:url("../images/shadow.gif") bottom center no-repeat;
+	}
+
+#container #homepage #content #latestnews{
+	display:block;
+	float:left;
+	width:600px;
+	}
+
+#container #homepage #content #latestnews li{
+	margin:0 0 15px 0;
+	padding:0 0 15px 0;
+	border-bottom:1px solid #D8D8D8;
+	}
+
+#container #homepage #content #latestnews li p{
+	margin:0;
+	padding:0;
+	}
+
+#container #homepage #content #latestnews li .readmore{
+	margin-top:15px;
+	}
+
+
+#container #homepage #column{}
+
+#container #homepage #column .readmore a{
+	font-weight:normal;
+	}
+
+#container #homepage #column .staffmembers li{
+	margin:0 0 15px 0;
+	border-bottom:1px solid #D8D8D8;
+	}
+
+#container #homepage #column .staffmembers li.last{
+	margin-bottom:0;
+	}
+
+#container #homepage #column .staffmembers p{
+	margin:10px 0 0 0;
+	padding:0;
+	line-height:normal;
+	}
